@@ -43,14 +43,12 @@ A secure, role-based authentication system backend using Node.js, Express, TypeS
     npm run dev
 
 
-📌 API Endpoints
+## 📌 API Endpoints
+
 ***POST /auth/signup → User Registration***
-
-POST /auth/login → User Login
-
-GET /auth/me → Get current user profile (protected)
-
-GET /users → Admin-only, get all users (protected)
+**POST /auth/login → User Login***
+***GET /auth/me → Get current user profile (protected)***
+***GET /users → Admin-only, get all users (protected)***
 
 📦 Sample .env configuration
 ```bash
@@ -61,29 +59,16 @@ JWT_EXPIRES_IN="1d"
 PORT=5000
 ```
 
-📌 Features
-JWT authentication
+## 📌 Features
 
-Role-based authorization
-
-Password hashing with bcrypt
-
-Centralized error handling
-
-Type-safe request extension via global.d.ts
-
-Prisma ORM integration with MySQL
-
-Admin seeding script
-
-Clean modular folder structure
-
-📜 License
-MIT
-
-yaml
-Copy
-Edit
+- JWT authentication
+- Role-based authorization
+- Password hashing with bcrypt
+- Centralized error handling
+- Type-safe request extension via global.d.ts
+- Prisma ORM integration with MySQL
+- Admin seeding script
+- Clean modular folder structure
 
 ---
 

@@ -20,39 +20,31 @@ A secure, role-based authentication system backend using Node.js, Express, TypeS
    ```bash
    git clone https://github.com/ankur-ram/authentication-system-backend.git
    cd authentication-system-backend
-Install dependencies
 
-bash
-Copy
-Edit
-npm install
-Configure environment variables
+2. **Install dependencies**
+    ```bash
+    npm install
+    Configure environment variables
 
-Copy .env.example to .env
+3. **Copy .env.example to .env**
+4. **Update it with your database credentials and JWT secret.**
 
-Update it with your database credentials and JWT secret.
+5. **Setup Prisma**
+    ```bash
+    npx prisma generate
+    npx prisma migrate dev --name init
 
-Setup Prisma
+6. **Seed admin user (optional)**
+    ```bash
+    npm run seed
 
-bash
-Copy
-Edit
-npx prisma generate
-npx prisma migrate dev --name init
-Seed admin user (optional)
+7. **Start development server**
+    ```bash
+    npm run dev
 
-bash
-Copy
-Edit
-npm run seed
-Start development server
 
-bash
-Copy
-Edit
-npm run dev
 📌 API Endpoints
-POST /auth/signup → User Registration
+***POST /auth/signup → User Registration***
 
 POST /auth/login → User Login
 

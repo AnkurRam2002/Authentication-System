@@ -51,7 +51,7 @@ A secure, role-based authentication system backend using Node.js, Express, TypeS
 
 ***GET /auth/me → Get current user profile (protected)***
 
-***GET /users → Admin-only, get all users (protected)***
+***GET /auth/admin/users → Admin-only, get all users (protected)***
 
 📦 Sample .env configuration
 ```bash

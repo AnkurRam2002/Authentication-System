@@ -46,8 +46,11 @@ A secure, role-based authentication system backend using Node.js, Express, TypeS
 ## 📌 API Endpoints
 
 ***POST /auth/signup → User Registration***
-**POST /auth/login → User Login***
+
+***POST /auth/login → User Login***
+
 ***GET /auth/me → Get current user profile (protected)***
+
 ***GET /users → Admin-only, get all users (protected)***
 
 📦 Sample .env configuration
